@@ -1,5 +1,6 @@
-const { generateSVG } = require('../lib/index.js'); // Adjust the path as needed
-const fs = require('fs');
+
+import { generateSVG } from '../lib/index.mj';
+import fs from 'fs';
 
 test('Generate SVG with provided input', () => {
   generateSVG('ABC', 'red', 'Circle', 'blue');
