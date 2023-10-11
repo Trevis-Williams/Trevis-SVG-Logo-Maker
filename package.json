@@ -2,30 +2,28 @@
   "name": "trevis-svg-logo-maker",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.mjs",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "jest"
   },
   "jest": {
-    "testEnvironment": "node",
-    "testMatch": [
-      "**/__tests__/**/*.[jt]s?(x)",
-      "**/?(*.)+(spec|test).[tj]s?(x)"
-    ]
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.11",
-    "svg.js": "^2.7.1"
+    "sharp": "^0.32.6",
+    "svg-canvas": "^1.0.2",
+    "svg.js": "^2.7.1",
+    "svgdom": "^0.1.17"
   },
   "devDependencies": {
     "jest": "^29.7.0"
   }
 }
-

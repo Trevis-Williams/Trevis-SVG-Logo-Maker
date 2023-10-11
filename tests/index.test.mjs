@@ -7,3 +7,5 @@ test('Generate SVG with provided input', () => {
   const svgExists = fs.existsSync('logo.svg');
   expect(svgExists).toBe(true);
 });
+
+
