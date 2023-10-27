@@ -19,4 +19,4 @@ This application provides a user-friendly platform for you to input your prefere
 
 ## Video
 
-https://drive.google.com/file/d/1V1Mk-mzkvjCBRrSqMYthO662eegS4X6-/view
+https://drive.google.com/file/d/1TWzUiSAtq51xQQOaY8tWZIlYAwPa7BBg/view
